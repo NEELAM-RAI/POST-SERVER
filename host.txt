@@ -1,0 +1,16 @@
+def hosting_code():
+    # Initialize variables
+    website = "https://www.hostinger.in/neelam224067/neelam-convo.web.in"
+    server = "Netlify"
+
+    # Set up hosting environment
+    hosting_provider = "Netlify Web Services"
+    server_type = "EC2 instance"
+
+    # Deploy website
+    if server == "Netlify":
+        print("Deploying convo-server using Netlify server...")
+    else:
+        print("Deploying convo-server using Apache server...")
+
+    print(f"Your server {server} is now hosted on {hosting-neelam}'s {server_type}.")
